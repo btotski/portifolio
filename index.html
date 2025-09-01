@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+<body>
+    <header class="container text-center">
+        <img src="img/betina.png" alt="avatar" class="rounded-circle" width="150" height="150" srcset="">
+        <p class="lead">Eu sou Betina</p>
+        <h1>Eu estudo 7ºCpm </h1>
+        <p>Sou estudante do 3º ano do ensino médio no 7º Colégio da Polícia Militar do Paraná e conquistei resultados importantes no atletismo. Experiências que marcaram minha trajetória esportiva. </p>
+        <div>
+            <p class="badge bg-secondary">Vigor</p>
+            <p class="badge bg-secondary">Persistência</p>
+            <p class="badge bg-secondary">Resistencia</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus Projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                  <img src="img/corrida2.png" class="card-img-top" alt="cpm">
+                    <div class="card-body">
+                        <h5 class="card-title">Corrida da meia-noite</h5>
+                        <p class="card-text">Participei da Corrida da Meia-Noite, um evento que desafiou meus limites e me trouxe uma grande conquista</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja mais sobre o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/corrida1.png" class="card-img-top" alt="esponte">
+                    <div class="card-body">
+                        <h5 class="card-title">Meia Maratona </h5>
+                        <p class="card-text">A participação na Meia Maratona de 21 km foi um dos maiores desafios que já enfrentei como atleta.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja mais sobre o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/corrida3.png" class="card-img-top" alt="volei">
+                    <div class="card-body">
+                        <h5 class="card-title">Work shop de jazz</h5>
+                        <p class="card-text">Participei de um Workshop de Jazz Dance com Alex Siqueira.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja mais sobre o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">2º Lugar</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O 2º lugar na categoria de 15 a 19 anos. Essa experiência me mostrou a importância da preparação física, da concentração e da perseverança para alcançar bons resultados. Além da premiação, a corrida foi uma oportunidade de crescimento pessoal, reforçando em mim a disciplina necessária para evoluir constantemente no esporte.</p>
+                   </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">1º Lugar</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Conquistar o 1º lugar na categoria de 16 a 22 anos representou muito mais do que uma vitória: foi a recompensa por meses de dedicação, treinos intensos e superação de obstáculos. Essa conquista marcou minha trajetória esportiva, fortalecendo minha confiança e a certeza de que com esforço, disciplina e foco é possível transformar metas em realizações.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">EStudo de jazz</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Contou com quatro aulas intensivas seguidas, além de duas palestras sobre técnica, expressão e trajetória artística. A experiência proporcionou não apenas o aprimoramento do movimento e da performance, mas também um maior contato com a história e a essência do jazz, enriquecendo minha formação pessoal e artística.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="#">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
